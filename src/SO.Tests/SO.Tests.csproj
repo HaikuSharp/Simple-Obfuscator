@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TestingPlatformDotnetTestSupport>true</TestingPlatformDotnetTestSupport>
+		<TestingPlatformShowTestsFailure>true</TestingPlatformShowTestsFailure>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+		<GenerateDocumentationFile>False</GenerateDocumentationFile>
+		<ProduceReferenceAssemblyInOutDir>False</ProduceReferenceAssemblyInOutDir>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MSTest" Version="3.9.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\SO.Abstraction\SO.Abstraction.csproj" />
+	  <ProjectReference Include="..\SO.Extensions\SO.Extensions.csproj" />
+	  <ProjectReference Include="..\SO.Renaming\SO.Renaming.csproj" />
+	  <ProjectReference Include="..\SO\SO.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+	</ItemGroup>
+
+</Project>
