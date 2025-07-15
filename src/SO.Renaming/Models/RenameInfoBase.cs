@@ -1,6 +1,6 @@
 ﻿using dnlib.DotNet;
 
-namespace SO.Renaming;
+namespace SO.Renaming.Models;
 
 public abstract class RenameInfoBase(MDToken mdt)
 {

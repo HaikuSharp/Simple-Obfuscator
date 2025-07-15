@@ -1,7 +1,7 @@
 ﻿using dnlib.DotNet;
 using SO.Abstraction;
 
-namespace SO;
+namespace SO.Processing.Defs;
 
 public class ObfuscateTypeDefPropertiesDefsProcessor(IObfuscateProcessor<PropertyDef> propertyDefProcessor) : IObfuscateProcessor<TypeDef>
 {

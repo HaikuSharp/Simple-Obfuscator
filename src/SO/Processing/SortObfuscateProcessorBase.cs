@@ -1,6 +1,6 @@
 ﻿using SO.Abstraction;
 
-namespace SO;
+namespace SO.Processing;
 
 public abstract class SortObfuscateProcessorBase<TObfuscateTarget>(IObfuscateProcessor<TObfuscateTarget> processor) : IObfuscateProcessor<TObfuscateTarget> where TObfuscateTarget : class
 {

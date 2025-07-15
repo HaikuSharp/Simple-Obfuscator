@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SO.Renaming", "SO.Renaming\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SO.Extensions", "SO.Extensions\SO.Extensions.csproj", "{441E3A86-8D8A-4C9D-9A5B-C9E48E849E7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SO.Renaming.Abstraction", "SO.Renaming.Abstraction\SO.Renaming.Abstraction.csproj", "{AC99A72C-1638-41E3-B2FB-67DFE2D439E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{441E3A86-8D8A-4C9D-9A5B-C9E48E849E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{441E3A86-8D8A-4C9D-9A5B-C9E48E849E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{441E3A86-8D8A-4C9D-9A5B-C9E48E849E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC99A72C-1638-41E3-B2FB-67DFE2D439E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC99A72C-1638-41E3-B2FB-67DFE2D439E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC99A72C-1638-41E3-B2FB-67DFE2D439E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC99A72C-1638-41E3-B2FB-67DFE2D439E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

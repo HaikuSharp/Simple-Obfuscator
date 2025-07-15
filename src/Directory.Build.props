@@ -16,12 +16,12 @@
 	<PropertyGroup>
 		<PackageId>$(MSBuildProjectName)</PackageId>
 		<Title>$(MSBuildProjectName)</Title>
-		<Description>A lightweight, modular, easy-to-use, minimal, and extensible dependency injection library for C#.</Description>
+		<Description>A lightweight, simple-to-use, modular, and extensible code obfuscation tool for .NET applications.</Description>
 		<Authors>R2R2HS</Authors>
 		<Company>HaikuSharp</Company>
 		<Copyright>© 2025 $(Company)</Copyright>
 		<RepositoryType>git</RepositoryType>
-		<PackageProjectUrl>https://github.com/HaikuSharp/Simple-Dependency-Injection</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/HaikuSharp/Simple-Obfuscator</PackageProjectUrl>
 		<RepositoryUrl>$(PackageProjectUrl).git</RepositoryUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>

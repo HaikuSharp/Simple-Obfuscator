@@ -1,6 +1,5 @@
 ﻿using dnlib.DotNet;
 using SO.Abstraction;
-using System.Data;
 
 namespace SO.Extensions;
 

@@ -1,12 +1,13 @@
-﻿using System;
+﻿using dnlib.DotNet;
+using System;
 
-namespace SO.Renaming;
+namespace SO.Renaming.Models;
 
-public readonly struct RenameData(string original, string renamed) : IEquatable<RenameData>
+public readonly struct RenameData(UTF8String original, UTF8String renamed) : IEquatable<RenameData>
 {
-    public string Original => original;
+    public UTF8String Original => original;
 
-    public string Renamed => renamed;
+    public UTF8String Renamed => renamed;
 
     public bool Equals(RenameData other) => original == other.Original;
 
