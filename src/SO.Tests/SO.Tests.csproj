@@ -18,7 +18,6 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\SO.Abstraction\SO.Abstraction.csproj" />
 	  <ProjectReference Include="..\SO.Extensions\SO.Extensions.csproj" />
-	  <ProjectReference Include="..\SO.Renaming\SO.Renaming.csproj" />
 	  <ProjectReference Include="..\SO\SO.csproj" />
 	</ItemGroup>
 
