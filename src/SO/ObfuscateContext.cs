@@ -1,11 +1,14 @@
-﻿using SO.Abstraction;
+﻿using dnlib.DotNet;
+using SO.Abstraction;
 using System.Collections.Generic;
 
 namespace SO;
 
-public class ObfuscateContext : IObfuscateContext
+public class ObfuscateContext(ModuleDef currentModule) : IObfuscateContext
 {
     private readonly Dictionary<ObfuscateDataId, object> m_ObfuscateData = [];
+
+    public ModuleDef CurrentModule => currentModule;
 
     public bool IsObfuscate(ObfuscateDataId id) => m_ObfuscateData.ContainsKey(id);
 

@@ -7,7 +7,7 @@ public class Obfuscator(IObfuscateProcessor<ModuleDef> processor) : IObfuscator
 {
     public IObfuscateContext Obfuscate(ModuleDef originalModule)
     {
-        ObfuscateContext context = new();
+        ObfuscateContext context = new(originalModule);
         processor.Process(originalModule, context);
         return context;
     }
